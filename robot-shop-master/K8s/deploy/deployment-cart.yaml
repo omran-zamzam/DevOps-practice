@@ -15,6 +15,7 @@ spec:
       labels:
         service: cart
     spec:
+      
       containers:
       - name: cart
         image: robotshop/rs-cart:latest
@@ -34,3 +35,4 @@ spec:
           requests:
             cpu: 100m
             memory: 50Mi
+
